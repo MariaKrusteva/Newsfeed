@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <div class="main">
+     <div class="one">
+       <div class="register">
+         <h3>Create your account</h3>
+
+         <div>
+           <label>Pick an image</label>
+           <input type="file" name="pic" id="inputFileToLoad" accept="image/*">
+           <button id="image-button">Save image</button>
+        </div>
+
+        
+           <div>
+             <label for="username">Username</label>
+             <input type="text" id="username" spellcheck="false"/>
+           </div>
+           <div>
+             <label for="password">Password</label>
+             <input type="password" id="password" />
+           </div>
+           <div>
+             <label for="password-again">Password Again</label>
+             <input type="password" id="password-again" />
+           </div>
+           <div>
+             <input type="submit" value="Create Account" id="create-account" class="button"/>
+           </div>
+        
+
+
+
+       </div>
+     </div>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="signup.js"></script>
+</body>
+</html>
